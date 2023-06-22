@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#navbar {
+    margin: 20px;
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-width: 1px 0;
+    border-color: rgb(91, 95, 98);
+    border-style: solid;
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 0 20px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+header p {
+    font-style: italic;
+    color: rgb(147, 147, 147);
+    font-size: 13px;
+}
+
+main {
+    clear: both;
+    display:block;
+    padding: 10px 60px;
+}
+
+#navbar a:hover{
+    color: #999;
+    transition: .4s;
+}
+
+article {
+    width: 70%;
+    float: left;
+    padding: 20px;
+    text-align: justify;
+}
+
+article p {
+    color: grey;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+section {
+    margin-top: 40px;
+    clear: both;
+    display: block;
+}
+
+figure {
+    float: left;
+}
+
+figure img{
+    width: 400px;
+    height: 250px;
+    margin: 20px 20px 0 0;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+}
+
+aside {
+    width: 20%;
+    padding: 20px;
+    text-align: justify;
+    float: right;
+}
+
+aside img{
+    width: 90px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#author_name {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+aside p {
+    font-size: 12px;
+    color: grey;
+}
+
+.more {
+    text-align: center;
+    background: blanchedalmond;
+    margin: 25px;
+    border-radius: 20px;
+    width: 50%;
+    padding: 50px 0;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    background: rgb(131, 133, 108);
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding: 0 100px;
+}
